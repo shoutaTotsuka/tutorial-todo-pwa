@@ -1,6 +1,6 @@
 {
   "name": "tutorial-todo-pwa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://shoutaTotsuka.github.io/tutorial-todo-pwa",
   "scripts": {
     "dev": "vite",
