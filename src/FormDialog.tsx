@@ -15,7 +15,7 @@ type Props = {
 
 export const FormDialog = (props: Props) => {
   return (
-    <Dialog fullWidth open={props.dialogOpen} onClose={props.toggleDialog}>
+    <Dialog fullWidth open={props.dialogOpen} onClose={props.toggleDialog} transitionDuration={{ enter: 0 }}>
       <form
         onSubmit={(e) => {
           e.preventDefault();
