@@ -19,7 +19,7 @@ const Alert = styled(Dialog)(() => ({
 
 export const AlertDialog = (props: Props) => {
   return (
-    <Alert open={props.alertOpen} onClose={props.toggleAlert} transitionDuration={{ enter: 0 }}>
+    <Alert open={props.alertOpen} onClose={props.toggleAlert} transitionDuration={{ enter: 0, exit: 0 }}>
       <DialogTitle>アラート</DialogTitle>
       <DialogContent>
         <DialogContentText>
