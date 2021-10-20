@@ -173,7 +173,10 @@ export const App = (): JSX.Element => {
 
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyles styles={{ body: { margin: 0, padding: 0 } }} />
+      <GlobalStyles styles={{
+        html: { height: '100%' },
+        body: { height: '100%', margin: 0, padding: 0, background: '#3f51b2' }
+      }} />
       <ToolBar filter={filter} toggleDrawer={toggleDrawer} />
       <SideBar
         drawerOpen={drawerOpen}
